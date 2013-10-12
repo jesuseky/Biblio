@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  lastname: MyString
+  title: MyString
+  lentoutd: 2013-09-26
+  return: 2013-09-26
+
+two:
+  name: MyString
+  lastname: MyString
+  title: MyString
+  lentoutd: 2013-09-26
+  return: 2013-09-26
