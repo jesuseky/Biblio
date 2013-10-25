@@ -1,4 +1,6 @@
 class Busqueda < ApplicationController
-  def busqueda
+  def autores
+    @autor= Author.all
+    render :json=> @autor
   end
 end
