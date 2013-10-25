@@ -6,6 +6,7 @@ Biblio::Application.routes.draw do
   # root 'welcome#index'
   root 'welcome#index'
   get 'autores ' => 'autor#autor'
+  get 'libros' => 'libro#libro'
 
 
   # Example of regular route:
