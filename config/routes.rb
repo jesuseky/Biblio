@@ -5,8 +5,9 @@ Biblio::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index
 
-  get 'author ' => 'authors#autor'
+  get 'author' => 'authors#autor'
   get 'book' => 'books#book'
+  
   root 'welcome#index'
   
 
