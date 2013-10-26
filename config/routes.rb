@@ -3,10 +3,12 @@ Biblio::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  # root 'welcome#index
+
+  get 'author ' => 'authors#autor'
+  get 'book' => 'books#book'
   root 'welcome#index'
-  get 'autores ' => 'autor#autor'
-  get 'libros' => 'libro#libro'
+  
 
 
   # Example of regular route:
