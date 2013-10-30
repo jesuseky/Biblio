@@ -2652,3 +2652,57 @@ Started GET "/assets/application.js?body=1" for 148.229.251.203 at 2013-10-26 00
 Started GET "/book" for 148.229.251.203 at 2013-10-26 00:51:40 +0000
 Processing by BooksController#book as HTML
 Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 148.229.251.203 at 2013-10-26 01:02:09 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 159ms (Views: 137.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 148.229.251.203 at 2013-10-26 01:02:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 148.229.251.203 at 2013-10-26 01:02:11 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 148.229.251.203 at 2013-10-26 01:02:11 +0000
+
+
+Started GET "/book" for 148.229.251.203 at 2013-10-26 01:02:13 +0000
+Processing by BooksController#book as HTML
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/author" for 148.229.251.203 at 2013-10-26 01:02:16 +0000
+Processing by AuthorsController#autor as HTML
+  [1m[35mAuthor Load (0.2ms)[0m  SELECT "authors".* FROM "authors"
+  Rendered authors/autor.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 30ms (Views: 25.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 148.229.251.203 at 2013-10-26 01:02:16 +0000
+
+
+Started GET "/assets/application.js?body=1" for 148.229.251.203 at 2013-10-26 01:02:16 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 148.229.251.203 at 2013-10-26 01:02:16 +0000
+
+
+Started GET "/author" for 148.229.251.203 at 2013-10-26 01:03:24 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AuthorsController#autor as HTML
+  [1m[35mAuthor Load (0.2ms)[0m  SELECT "authors".* FROM "authors"
+  Rendered authors/autor.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 184ms (Views: 157.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 148.229.251.203 at 2013-10-26 01:03:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 148.229.251.203 at 2013-10-26 01:03:25 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 148.229.251.203 at 2013-10-26 01:03:25 +0000
