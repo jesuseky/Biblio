@@ -1,11 +1,30 @@
-<ul>
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>Libros</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <p>Tenoms los Siguientes Libros</p>
+ <div>
+   <ul>
 
 <% @libro.each do |libro| %>
   
 <div>
   <h3>   <%=  libro.title %> </h3>
-  
-  
+  <p> <%= libro.publishing %> </p>
   <p> <%= libro.category %> </p>
+  <p> <%= libro.stock %> </p>
+  
+  
   <%end %>
   </div>
+</ul>
+<%= yield %>
+
+  </div>
+</body>
+</html>

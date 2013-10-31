@@ -2785,3 +2785,916 @@ Started GET "/" for 148.229.47.136 at 2013-10-31 02:26:31 +0000
 Processing by WelcomeController#index as HTML
   Rendered welcome/index.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.131.16.45 at 2013-10-31 19:35:56 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 876ms (Views: 855.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 201.131.16.45 at 2013-10-31 19:35:58 +0000
+
+
+Started GET "/assets/application.css?body=1" for 201.131.16.45 at 2013-10-31 19:35:58 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 201.131.16.45 at 2013-10-31 19:35:58 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 201.131.16.45 at 2013-10-31 19:35:58 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 201.131.16.45 at 2013-10-31 19:35:58 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 201.131.16.45 at 2013-10-31 19:35:58 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 201.131.16.45 at 2013-10-31 19:35:58 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 201.131.16.45 at 2013-10-31 19:35:58 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 201.131.16.45 at 2013-10-31 19:35:58 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 201.131.16.45 at 2013-10-31 19:35:58 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 201.131.16.45 at 2013-10-31 19:35:58 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 201.131.16.45 at 2013-10-31 19:35:58 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 201.131.16.45 at 2013-10-31 19:35:58 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 201.131.16.45 at 2013-10-31 19:35:58 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 201.131.16.45 at 2013-10-31 19:36:01 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 201.131.16.45 at 2013-10-31 19:36:01 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 201.131.16.45 at 2013-10-31 19:36:01 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 201.131.16.45 at 2013-10-31 19:36:01 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 201.131.16.45 at 2013-10-31 19:36:01 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 201.131.16.45 at 2013-10-31 19:36:02 +0000
+
+
+Started GET "/assets/application.js?body=1" for 201.131.16.45 at 2013-10-31 19:36:02 +0000
+
+
+Started GET "/book" for 201.131.16.45 at 2013-10-31 19:37:03 +0000
+Processing by BooksController#book as HTML
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/book" for 201.131.16.45 at 2013-10-31 19:37:03 +0000
+Processing by BooksController#book as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.131.16.45 at 2013-10-31 19:45:46 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x00000001c55908>:0x007f3e6c870288>):
+    14:         <p><a class="btn btn-lg btn-success" href="book" role="button">Sign up today</a></p>
+    15:       </div>
+    16:    <div class="field">
+    17:     <%= f.label :title %><br />
+    18:     <%= f.text_field :title %>
+    19:   </div>
+    20: <%= yield %>
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb__4340459443921769479_69953042761880'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.6ms)
+
+
+Started GET "/" for 201.131.16.45 at 2013-10-31 19:48:46 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 49ms
+
+ActionView::Template::Error (undefined local variable or method `libro' for #<#<Class:0x00000001c55908>:0x007f3e6816ce68>):
+    14:         <p><a class="btn btn-lg btn-success" href="book" role="button">Sign up today</a></p>
+    15:       </div>
+    16:    <div class="field">
+    17:     <%= libro.label :title %><br />
+    18:     <%= libro.text_field :title %>
+    19:   </div>
+    20: <%= yield %>
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb__4340459443921769479_69953005523200'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.6ms)
+
+
+Started GET "/" for 201.131.16.45 at 2013-10-31 19:49:43 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2..4)):
+    14:         <p><a class="btn btn-lg btn-success" href="book" role="button">Sign up today</a></p>
+    15:       </div>
+    16:    <div class="field">
+    17:     <%= label :title %><br />
+    18:     <%= text_field :title %>
+    19:   </div>
+    20: <%= yield %>
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb__4340459443921769479_27170360'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.8ms)
+
+
+Started GET "/" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/application.css?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/assets/application.js?body=1" for 201.131.16.45 at 2013-10-31 19:52:01 +0000
+
+
+Started GET "/" for 201.131.16.45 at 2013-10-31 19:53:54 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 201.131.16.45 at 2013-10-31 19:53:54 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 201.131.16.45 at 2013-10-31 19:53:54 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 201.131.16.45 at 2013-10-31 19:53:54 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 201.131.16.45 at 2013-10-31 19:53:54 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 201.131.16.45 at 2013-10-31 19:53:54 +0000
+
+
+Started GET "/assets/application.css?body=1" for 201.131.16.45 at 2013-10-31 19:53:54 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 201.131.16.45 at 2013-10-31 19:53:54 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 201.131.16.45 at 2013-10-31 19:53:54 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 201.131.16.45 at 2013-10-31 19:53:54 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 201.131.16.45 at 2013-10-31 19:53:54 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 201.131.16.45 at 2013-10-31 19:53:54 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 201.131.16.45 at 2013-10-31 19:53:54 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 201.131.16.45 at 2013-10-31 19:53:54 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 201.131.16.45 at 2013-10-31 19:53:54 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 201.131.16.45 at 2013-10-31 19:53:55 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 201.131.16.45 at 2013-10-31 19:53:55 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 201.131.16.45 at 2013-10-31 19:53:55 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 201.131.16.45 at 2013-10-31 19:53:55 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 201.131.16.45 at 2013-10-31 19:53:55 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 201.131.16.45 at 2013-10-31 19:53:55 +0000
+
+
+Started GET "/assets/application.js?body=1" for 201.131.16.45 at 2013-10-31 19:53:55 +0000
+
+
+Started GET "/" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/assets/application.js?body=1" for 201.131.16.45 at 2013-10-31 20:37:57 +0000
+
+
+Started GET "/" for 201.131.16.45 at 2013-10-31 20:39:41 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/calando.css?body=1" for 201.131.16.45 at 2013-10-31 20:39:41 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 201.131.16.45 at 2013-10-31 20:39:41 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 201.131.16.45 at 2013-10-31 20:39:41 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 201.131.16.45 at 2013-10-31 20:39:41 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 201.131.16.45 at 2013-10-31 20:39:41 +0000
+
+
+Started GET "/assets/application.css?body=1" for 201.131.16.45 at 2013-10-31 20:39:41 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 201.131.16.45 at 2013-10-31 20:39:42 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 201.131.16.45 at 2013-10-31 20:39:42 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 201.131.16.45 at 2013-10-31 20:39:42 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 201.131.16.45 at 2013-10-31 20:39:42 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 201.131.16.45 at 2013-10-31 20:39:42 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 201.131.16.45 at 2013-10-31 20:39:42 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 201.131.16.45 at 2013-10-31 20:39:42 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 201.131.16.45 at 2013-10-31 20:39:42 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 201.131.16.45 at 2013-10-31 20:39:42 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 201.131.16.45 at 2013-10-31 20:39:42 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 201.131.16.45 at 2013-10-31 20:39:42 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 201.131.16.45 at 2013-10-31 20:39:42 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 201.131.16.45 at 2013-10-31 20:39:42 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 201.131.16.45 at 2013-10-31 20:39:42 +0000
+
+
+Started GET "/assets/application.js?body=1" for 201.131.16.45 at 2013-10-31 20:39:42 +0000
+
+
+Started GET "/book" for 201.131.16.45 at 2013-10-31 20:39:53 +0000
+Processing by BooksController#book as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/book" for 201.131.16.45 at 2013-10-31 20:39:53 +0000
+Processing by BooksController#book as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/book" for 201.131.16.45 at 2013-10-31 20:39:56 +0000
+Processing by BooksController#book as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/book" for 201.131.16.45 at 2013-10-31 20:39:56 +0000
+Processing by BooksController#book as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.131.16.45 at 2013-10-31 20:41:35 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 201.131.16.45 at 2013-10-31 20:41:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 201.131.16.45 at 2013-10-31 20:41:35 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 201.131.16.45 at 2013-10-31 20:41:35 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 201.131.16.45 at 2013-10-31 20:41:35 +0000
+
+
+Started GET "/assets/application.css?body=1" for 201.131.16.45 at 2013-10-31 20:41:35 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 201.131.16.45 at 2013-10-31 20:41:35 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 201.131.16.45 at 2013-10-31 20:41:35 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 201.131.16.45 at 2013-10-31 20:41:36 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 201.131.16.45 at 2013-10-31 20:41:36 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 201.131.16.45 at 2013-10-31 20:41:36 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 201.131.16.45 at 2013-10-31 20:41:36 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 201.131.16.45 at 2013-10-31 20:41:36 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 201.131.16.45 at 2013-10-31 20:41:36 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 201.131.16.45 at 2013-10-31 20:41:36 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 201.131.16.45 at 2013-10-31 20:41:36 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 201.131.16.45 at 2013-10-31 20:41:36 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 201.131.16.45 at 2013-10-31 20:41:36 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 201.131.16.45 at 2013-10-31 20:41:36 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 201.131.16.45 at 2013-10-31 20:41:36 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 201.131.16.45 at 2013-10-31 20:41:36 +0000
+
+
+Started GET "/assets/application.js?body=1" for 201.131.16.45 at 2013-10-31 20:41:36 +0000
+
+
+Started GET "/Book" for 201.131.16.45 at 2013-10-31 20:41:37 +0000
+
+ActionController::RoutingError (No route matches [GET] "/Book"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.6ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (68.9ms)
+
+
+Started GET "/Book" for 201.131.16.45 at 2013-10-31 20:41:38 +0000
+
+ActionController::RoutingError (No route matches [GET] "/Book"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (17.2ms)
+
+
+Started GET "/" for 201.131.16.45 at 2013-10-31 20:58:16 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 161ms (Views: 140.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:17 +0000
+
+
+Started GET "/" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/application.css?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:19 +0000
+
+
+Started GET "/Book" for 201.131.16.45 at 2013-10-31 20:58:21 +0000
+
+ActionController::RoutingError (No route matches [GET] "/Book"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (23.1ms)
+
+
+Started GET "/Book" for 201.131.16.45 at 2013-10-31 20:58:22 +0000
+
+ActionController::RoutingError (No route matches [GET] "/Book"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (18.4ms)
+
+
+Started GET "/" for 201.131.16.45 at 2013-10-31 20:58:50 +0000
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 201.131.16.45 at 2013-10-31 20:58:50 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 201.131.16.45 at 2013-10-31 20:58:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:50 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:50 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 201.131.16.45 at 2013-10-31 20:58:50 +0000
+
+
+Started GET "/book" for 201.131.16.45 at 2013-10-31 20:58:53 +0000
+Processing by BooksController#book as HTML
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/book" for 201.131.16.45 at 2013-10-31 20:58:53 +0000
+Processing by BooksController#book as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/book" for 201.131.16.45 at 2013-10-31 21:02:07 +0000
+Processing by BooksController#book as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/book" for 201.131.16.45 at 2013-10-31 21:02:07 +0000
+Processing by BooksController#book as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/author" for 201.131.16.45 at 2013-10-31 21:02:09 +0000
+Processing by AuthorsController#autor as HTML
+  [1m[36mAuthor Load (0.2ms)[0m  [1mSELECT "authors".* FROM "authors"[0m
+  Rendered authors/autor.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 30ms (Views: 24.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/author" for 201.131.16.45 at 2013-10-31 21:02:11 +0000
+Processing by AuthorsController#autor as HTML
+  [1m[35mAuthor Load (0.2ms)[0m  SELECT "authors".* FROM "authors"
+  Rendered authors/autor.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/book" for 201.131.16.45 at 2013-10-31 21:02:12 +0000
+Processing by BooksController#book as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/book" for 201.131.16.45 at 2013-10-31 21:02:12 +0000
+Processing by BooksController#book as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/author" for 201.131.16.45 at 2013-10-31 21:02:13 +0000
+Processing by AuthorsController#autor as HTML
+  [1m[36mAuthor Load (0.3ms)[0m  [1mSELECT "authors".* FROM "authors"[0m
+  Rendered authors/autor.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/author" for 201.131.16.45 at 2013-10-31 21:02:14 +0000
+Processing by AuthorsController#autor as HTML
+  [1m[35mAuthor Load (0.2ms)[0m  SELECT "authors".* FROM "authors"
+  Rendered authors/autor.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/book" for 201.131.16.45 at 2013-10-31 21:02:16 +0000
+Processing by BooksController#book as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/book" for 201.131.16.45 at 2013-10-31 21:02:16 +0000
+Processing by BooksController#book as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.131.16.45 at 2013-10-31 21:02:26 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 201.131.16.45 at 2013-10-31 21:02:27 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 201.131.16.45 at 2013-10-31 21:02:27 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 201.131.16.45 at 2013-10-31 21:02:27 +0000
+
+
+Started GET "/assets/application.js?body=1" for 201.131.16.45 at 2013-10-31 21:02:27 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 201.131.16.45 at 2013-10-31 21:02:27 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 201.131.16.45 at 2013-10-31 21:02:27 +0000
+
+
+Started GET "/author" for 201.131.16.45 at 2013-10-31 21:02:30 +0000
+Processing by AuthorsController#autor as HTML
+  [1m[36mAuthor Load (0.2ms)[0m  [1mSELECT "authors".* FROM "authors"[0m
+  Rendered authors/autor.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/book" for 201.131.16.45 at 2013-10-31 21:02:34 +0000
+Processing by BooksController#book as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/book" for 201.131.16.45 at 2013-10-31 21:02:34 +0000
+Processing by BooksController#book as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
