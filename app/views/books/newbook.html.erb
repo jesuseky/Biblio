@@ -1,0 +1,23 @@
+<h3> nuevo author </h3>
+
+<%= form_for(@author) do|f| %>
+<%if @author.errors.any?%>
+<div id="error_explanation">
+  <p> Error al guardar el autor</p>
+</div>
+<%end %>
+
+<div class ="field">
+  <%= f.label :name, "nombre" %><br>
+  <%= f.text_field :name %>
+</div>
+
+<div class ="field">
+  <%= f.label :date_of_birth %><br>
+  <%= f.date_select :date_of_birth %>
+</div>
+<div class="actions">
+  <%= f.submit "guardar" %>
+</div>
+
+<%end%>
