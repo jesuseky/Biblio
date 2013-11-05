@@ -9493,3 +9493,22 @@ Started GET "/assets/bootstrap.js?body=1" for 189.244.6.157 at 2013-11-05 03:08:
 
 
 Started GET "/assets/application.js?body=1" for 189.244.6.157 at 2013-11-05 03:08:18 +0000
+
+
+Started GET "/book" for 189.244.6.157 at 2013-11-05 03:09:45 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/calando.css?body=1" for 189.244.6.157 at 2013-11-05 03:09:45 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 189.244.6.157 at 2013-11-05 03:09:45 +0000
+
+
+Started GET "/assets/application.js?body=1" for 189.244.6.157 at 2013-11-05 03:09:45 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 189.244.6.157 at 2013-11-05 03:09:45 +0000
