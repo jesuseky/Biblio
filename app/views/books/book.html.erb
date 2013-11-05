@@ -13,15 +13,16 @@
 
 <% @book.each do |libro| %>
   
-<div>
+<div class="btn btn-lg btn-success">
+     <br>
   <h3>   <%=  libro.title %> </h3>
   <p> <%= libro.publishing %> </p>
   <p> <%= libro.category %> </p>
   <p> <%= libro.stock %> </p>
   
-  
+  </div>  
   <%end %>
-  </div>
+  
 </ul>
 <%= yield %>
 
