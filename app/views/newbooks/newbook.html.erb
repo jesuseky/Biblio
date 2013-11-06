@@ -8,14 +8,25 @@
 <%end %>
 
 <div class ="field">
-  <%= f.label :title, "titulo" %><br>
+  <%= f.label :title, "Titulo" %><br>
   <%= f.text_field :title %>
+</div>
+
+<div class ="field">
+  <%= f.label :category, "Categoria" %><br>
+  <%= f.text_field :category %>
 </div>
 
 <div class ="field">
   <%= f.label :publishing %><br>
   <%= f.text_field :publishing %>
 </div>
+
+<div class ="field">
+  <%= f.label :stock, "Inventario" %><br>
+  <%= f.text_field :stock %>
+</div><br>
+
 <div class="actions">
   <%= f.submit "guardar" %>
 </div>
