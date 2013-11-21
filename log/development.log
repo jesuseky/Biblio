@@ -16073,3 +16073,89 @@ Started GET "/assets/calando.js?body=1" for 201.131.16.45 at 2013-11-21 19:48:03
 
 
 Started GET "/assets/books.js?body=1" for 201.131.16.45 at 2013-11-21 19:48:03 +0000
+
+
+Started GET "/" for 201.131.16.45 at 2013-11-21 20:17:49 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 201.131.16.45 at 2013-11-21 20:17:49 +0000
+
+
+Started GET "/assets/books.css?body=1" for 201.131.16.45 at 2013-11-21 20:17:49 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 201.131.16.45 at 2013-11-21 20:17:49 +0000
+
+
+Started GET "/assets/books.js?body=1" for 201.131.16.45 at 2013-11-21 20:17:49 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 201.131.16.45 at 2013-11-21 20:17:49 +0000
+
+
+Started GET "/assets/application.js?body=1" for 201.131.16.45 at 2013-11-21 20:17:50 +0000
+
+
+Started GET "/book" for 201.131.16.45 at 2013-11-21 20:17:51 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (45.8ms)
+Completed 200 OK in 89ms (Views: 87.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/book" for 201.131.16.45 at 2013-11-21 20:17:52 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (43.2ms)
+Completed 200 OK in 85ms (Views: 84.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 201.131.16.45 at 2013-11-21 20:17:52 +0000
+
+
+Started GET "/assets/books.css?body=1" for 201.131.16.45 at 2013-11-21 20:17:52 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 201.131.16.45 at 2013-11-21 20:17:52 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 201.131.16.45 at 2013-11-21 20:17:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 201.131.16.45 at 2013-11-21 20:17:52 +0000
+
+
+Started GET "/assets/books.js?body=1" for 201.131.16.45 at 2013-11-21 20:17:52 +0000
+
+
+Started GET "/newbook" for 201.131.16.45 at 2013-11-21 20:17:54 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 47ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newbook" for 201.131.16.45 at 2013-11-21 20:17:54 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 201.131.16.45 at 2013-11-21 20:17:55 +0000
+
+
+Started GET "/assets/application.css?body=1" for 201.131.16.45 at 2013-11-21 20:17:55 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 201.131.16.45 at 2013-11-21 20:17:55 +0000
+
+
+Started GET "/assets/books.js?body=1" for 201.131.16.45 at 2013-11-21 20:17:55 +0000
+
+
+Started GET "/assets/application.js?body=1" for 201.131.16.45 at 2013-11-21 20:17:55 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 201.131.16.45 at 2013-11-21 20:17:55 +0000
