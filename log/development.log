@@ -16442,3 +16442,27 @@ Started GET "/assets/application.js?body=1" for 201.131.16.45 at 2013-11-21 20:2
 
 
 Started GET "/assets/calando.js?body=1" for 201.131.16.45 at 2013-11-21 20:23:20 +0000
+
+
+Started GET "/" for 201.131.16.45 at 2013-11-21 20:49:13 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 92ms (Views: 90.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 201.131.16.45 at 2013-11-21 20:49:13 +0000
+
+
+Started GET "/assets/books.css?body=1" for 201.131.16.45 at 2013-11-21 20:49:13 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 201.131.16.45 at 2013-11-21 20:49:14 +0000
+
+
+Started GET "/assets/books.js?body=1" for 201.131.16.45 at 2013-11-21 20:49:14 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 201.131.16.45 at 2013-11-21 20:49:14 +0000
+
+
+Started GET "/assets/application.js?body=1" for 201.131.16.45 at 2013-11-21 20:49:14 +0000
