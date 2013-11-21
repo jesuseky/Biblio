@@ -6,6 +6,7 @@ class BooksController < ApplicationController
   def index
     
   end
+  
   def create
     @book = Book.new(book_params)
     if @book.save
@@ -16,7 +17,9 @@ class BooksController < ApplicationController
   end
 end
   
+
+  
   def book_params
-    params.require(:book).permit(:title,:publishing,:stock,:category)
+    params.require(:book).permit(:title,:publishing,:stock,:category,:link)
   end
 end
