@@ -17142,3 +17142,2160 @@ Started GET "/assets/calando.js?body=1" for 201.166.75.247 at 2013-11-21 23:57:5
 
 
 Started GET "/assets/application.js?body=1" for 201.166.75.247 at 2013-11-21 23:57:59 +0000
+
+
+Started GET "/" for 148.229.251.203 at 2013-11-26 01:00:23 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3233ms (Views: 3212.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 148.229.251.203 at 2013-11-26 01:00:28 +0000
+
+
+Started GET "/assets/books.css?body=1" for 148.229.251.203 at 2013-11-26 01:00:28 +0000
+
+
+Started GET "/assets/application.css?body=1" for 148.229.251.203 at 2013-11-26 01:00:28 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 148.229.251.203 at 2013-11-26 01:00:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 148.229.251.203 at 2013-11-26 01:00:28 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 148.229.251.203 at 2013-11-26 01:00:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 148.229.251.203 at 2013-11-26 01:00:28 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 148.229.251.203 at 2013-11-26 01:00:28 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 148.229.251.203 at 2013-11-26 01:00:28 +0000
+
+
+Started GET "/assets/books.js?body=1" for 148.229.251.203 at 2013-11-26 01:00:28 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 148.229.251.203 at 2013-11-26 01:00:29 +0000
+
+
+Started GET "/assets/application.js?body=1" for 148.229.251.203 at 2013-11-26 01:00:30 +0000
+
+
+Started GET "/assets/images/templatemo_body.jpg" for 148.229.251.203 at 2013-11-26 01:00:34 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/templatemo_body.jpg"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (39.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (110.1ms)
+
+
+Started GET "/book" for 148.229.251.203 at 2013-11-26 01:00:45 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (75.2ms)
+Completed 200 OK in 140ms (Views: 85.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/book" for 148.229.251.203 at 2013-11-26 01:00:46 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/books.css?body=1" for 148.229.251.203 at 2013-11-26 01:00:48 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 148.229.251.203 at 2013-11-26 01:00:48 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 148.229.251.203 at 2013-11-26 01:00:48 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 148.229.251.203 at 2013-11-26 01:00:48 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 148.229.251.203 at 2013-11-26 01:00:48 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 148.229.251.203 at 2013-11-26 01:00:48 +0000
+
+
+Started GET "/assets/books.js?body=1" for 148.229.251.203 at 2013-11-26 01:00:48 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 148.229.251.203 at 2013-11-26 01:00:48 +0000
+
+
+Started GET "/newbook" for 148.229.251.203 at 2013-11-26 01:00:52 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (84.3ms)
+Completed 200 OK in 98ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newbook" for 148.229.251.203 at 2013-11-26 01:00:52 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.js?body=1" for 148.229.251.203 at 2013-11-26 01:00:53 +0000
+
+
+Started GET "/assets/books.css?body=1" for 148.229.251.203 at 2013-11-26 01:00:53 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 148.229.251.203 at 2013-11-26 01:00:53 +0000
+
+
+Started GET "/" for 200.79.223.59 at 2013-11-26 02:32:44 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 175ms (Views: 153.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 200.79.223.59 at 2013-11-26 02:32:45 +0000
+
+
+Started GET "/assets/application.css?body=1" for 200.79.223.59 at 2013-11-26 02:32:45 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 02:32:45 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 200.79.223.59 at 2013-11-26 02:32:45 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 200.79.223.59 at 2013-11-26 02:32:45 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 02:32:45 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 200.79.223.59 at 2013-11-26 02:32:45 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 02:32:45 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 02:32:45 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 02:32:45 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 02:32:45 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 02:32:45 +0000
+
+
+Started GET "/assets/images/templatemo_body.jpg" for 200.79.223.59 at 2013-11-26 02:32:46 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/templatemo_body.jpg"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.8ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (29.3ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:32:57 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (44.2ms)
+Completed 200 OK in 94ms (Views: 55.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:32:58 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.4ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 35ms (Views: 33.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/www.google.com.mx" for 200.79.223.59 at 2013-11-26 02:33:01 +0000
+
+ActionController::RoutingError (No route matches [GET] "/www.google.com.mx"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (29.8ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:33:04 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.4ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 200.79.223.59 at 2013-11-26 02:33:04 +0000
+
+
+Started GET "/assets/application.css?body=1" for 200.79.223.59 at 2013-11-26 02:33:04 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 02:33:04 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 02:33:04 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 200.79.223.59 at 2013-11-26 02:33:04 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 200.79.223.59 at 2013-11-26 02:33:04 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 200.79.223.59 at 2013-11-26 02:33:04 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 02:33:04 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 02:33:04 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 02:33:04 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 02:33:04 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 02:33:04 +0000
+
+
+Started GET "/assets/images/templatemo_body.jpg" for 200.79.223.59 at 2013-11-26 02:33:05 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/templatemo_body.jpg"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (21.6ms)
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 02:33:06 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 02:33:07 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 02:33:07 +0000
+
+
+Started POST "/books" for 200.79.223.59 at 2013-11-26 02:33:25 +0000
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+HCvRg0eY8eSAMEbpmxKuoW5yKArI6u/1nfK9fPnhNU=", "book"=>{"title"=>"iusf", "category"=>"iluh", "publishing"=>"iluh", "disponible"=>"iu", "link"=>"www.google.com.mx"}, "commit"=>"guardar"}
+Unpermitted parameters: disponible
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (108.7ms)[0m  INSERT INTO "books" ("category", "created_at", "link", "publishing", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["category", "iluh"], ["created_at", Tue, 26 Nov 2013 02:33:25 UTC +00:00], ["link", "www.google.com.mx"], ["publishing", "iluh"], ["title", "iusf"], ["updated_at", Tue, 26 Nov 2013 02:33:25 UTC +00:00]]
+  [1m[36m (48.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://awesomebox-25043.usw1.actionbox.io/books
+Completed 302 Found in 163ms (ActiveRecord: 156.9ms)
+
+
+Started GET "/books" for 200.79.223.59 at 2013-11-26 02:33:25 +0000
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 02:33:25 +0000
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:33:27 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.4ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (47.6ms)
+Completed 200 OK in 59ms (Views: 57.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:33:27 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 02:33:27 +0000
+
+
+Started GET "/www.google.com.mx" for 200.79.223.59 at 2013-11-26 02:33:29 +0000
+
+ActionController::RoutingError (No route matches [GET] "/www.google.com.mx"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (21.2ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:33:37 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 02:33:37 +0000
+
+
+Started GET "/" for 200.79.223.59 at 2013-11-26 02:37:13 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 200.79.223.59 at 2013-11-26 02:37:13 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 200.79.223.59 at 2013-11-26 02:37:13 +0000
+
+
+Started GET "/assets/application.css?body=1" for 200.79.223.59 at 2013-11-26 02:37:13 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 200.79.223.59 at 2013-11-26 02:37:13 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 02:37:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 02:37:13 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 200.79.223.59 at 2013-11-26 02:37:13 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 02:37:13 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 02:37:13 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 02:37:13 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 02:37:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 02:37:14 +0000
+
+
+Started GET "/assets/images/templatemo_body.jpg" for 200.79.223.59 at 2013-11-26 02:37:15 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/templatemo_body.jpg"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (22.6ms)
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 02:38:09 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:09 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:09 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:09 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:09 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:09 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:09 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:09 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:09 +0000
+
+
+Started GET "/assets/images/templatemo_body.jpg" for 200.79.223.59 at 2013-11-26 02:38:09 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/templatemo_body.jpg"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (21.3ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:38:24 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.4ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:38:24 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.4ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (58.4ms)
+Completed 200 OK in 75ms (Views: 73.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:25 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:25 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:25 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:25 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:25 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:25 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:25 +0000
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:38:32 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:38:33 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:38:33 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:38:34 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 55ms (Views: 53.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:38:34 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:34 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:34 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:34 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:34 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:34 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:34 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 02:38:34 +0000
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:45:32 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (34.8ms)
+Completed 200 OK in 51ms (Views: 47.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:45:33 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.4ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (49.3ms)
+Completed 200 OK in 61ms (Views: 59.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 02:45:33 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 200.79.223.59 at 2013-11-26 02:45:33 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 200.79.223.59 at 2013-11-26 02:45:33 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 02:45:33 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 02:45:33 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 02:45:33 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 02:45:33 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 02:45:33 +0000
+
+
+Started GET "/assets/images/templatemo_body.jpg" for 200.79.223.59 at 2013-11-26 02:45:33 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/templatemo_body.jpg"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (27.4ms)
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 02:45:44 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 02:45:44 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 02:45:44 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 200.79.223.59 at 2013-11-26 02:45:44 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 02:45:45 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 02:45:45 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 02:45:45 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 200.79.223.59 at 2013-11-26 02:45:45 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 02:45:45 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 02:45:45 +0000
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:47:07 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (73.5ms)
+Completed 200 OK in 88ms (Views: 83.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 02:47:07 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 200.79.223.59 at 2013-11-26 02:47:07 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 200.79.223.59 at 2013-11-26 02:47:07 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 02:47:07 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 02:47:07 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 02:47:07 +0000
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:47:58 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (39.5ms)
+Completed 200 OK in 54ms (Views: 50.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:47:59 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.4ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (48.9ms)
+Completed 200 OK in 60ms (Views: 58.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 02:47:59 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 02:47:59 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 02:47:59 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 02:47:59 +0000
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:48:00 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:48:01 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 02:48:01 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 02:48:01 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 02:48:01 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 02:48:01 +0000
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 02:51:18 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (58.1ms)
+Completed 200 OK in 73ms (Views: 69.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 02:51:19 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 02:51:19 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:19 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:19 +0000
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 02:51:21 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 02:51:21 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:21 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 02:51:21 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:21 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:21 +0000
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 02:51:23 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 02:51:24 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 02:51:24 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:24 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:24 +0000
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 02:51:24 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 02:51:24 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 02:51:24 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:24 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:24 +0000
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 02:51:26 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:51:27 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:51:27 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 02:51:27 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:27 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:27 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:27 +0000
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 02:51:29 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (43.7ms)
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 02:51:30 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 02:51:30 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:30 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:30 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 02:51:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:30 +0000
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 02:51:32 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 02:51:32 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:32 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 02:51:32 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:32 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 02:51:32 +0000
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 03:01:10 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (33.6ms)
+Completed 200 OK in 79ms (Views: 43.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 03:01:11 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 200.79.223.59 at 2013-11-26 03:01:11 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 03:01:11 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 200.79.223.59 at 2013-11-26 03:01:11 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 03:01:11 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 03:01:11 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 03:01:11 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 03:01:11 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 03:01:11 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 03:01:11 +0000
+
+
+Started GET "/" for 200.79.223.59 at 2013-11-26 03:01:11 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 200.79.223.59 at 2013-11-26 03:01:12 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 03:01:12 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 200.79.223.59 at 2013-11-26 03:01:12 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 03:01:12 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 03:01:12 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 03:01:12 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 03:01:12 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 03:01:12 +0000
+
+
+Started GET "/show" for 200.79.223.59 at 2013-11-26 03:01:14 +0000
+
+ActionController::RoutingError (No route matches [GET] "/show"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (34.8ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (55.0ms)
+
+
+Started GET "/show" for 200.79.223.59 at 2013-11-26 03:01:15 +0000
+
+ActionController::RoutingError (No route matches [GET] "/show"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (21.0ms)
+
+
+Started GET "/show" for 200.79.223.59 at 2013-11-26 03:02:29 +0000
+
+ActionController::RoutingError (uninitialized constant ShowController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3910594227531133716__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (28.8ms)
+
+
+Started GET "/" for 200.79.223.59 at 2013-11-26 03:02:29 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 200.79.223.59 at 2013-11-26 03:02:29 +0000
+
+
+Started GET "/assets/application.css?body=1" for 200.79.223.59 at 2013-11-26 03:02:29 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 03:02:29 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 200.79.223.59 at 2013-11-26 03:02:29 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 03:02:29 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 200.79.223.59 at 2013-11-26 03:02:30 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 200.79.223.59 at 2013-11-26 03:02:30 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 03:02:30 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 03:02:30 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 03:02:30 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 03:02:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 03:02:30 +0000
+
+
+Started GET "/assets/images/templatemo_body.jpg" for 200.79.223.59 at 2013-11-26 03:02:30 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/templatemo_body.jpg"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (23.3ms)
+
+
+Started GET "/show" for 200.79.223.59 at 2013-11-26 03:02:31 +0000
+
+ActionController::RoutingError (uninitialized constant ShowController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3910594227531133716__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (38.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (66.4ms)
+
+
+Started GET "/show" for 200.79.223.59 at 2013-11-26 03:02:31 +0000
+
+ActionController::RoutingError (uninitialized constant ShowController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3910594227531133716__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (32.7ms)
+
+
+Started GET "/" for 200.79.223.59 at 2013-11-26 03:03:19 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 03:03:19 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 03:03:19 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 03:03:19 +0000
+
+
+Started GET "/show" for 200.79.223.59 at 2013-11-26 03:03:21 +0000
+
+ActionController::RoutingError (uninitialized constant BookController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3910594227531133716__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (33.6ms)
+
+
+Started GET "/show" for 200.79.223.59 at 2013-11-26 03:03:21 +0000
+
+ActionController::RoutingError (uninitialized constant BookController):
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3910594227531133716__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (28.5ms)
+
+
+Started GET "/" for 200.79.223.59 at 2013-11-26 03:05:03 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:03 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:03 +0000
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 03:05:05 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (72.1ms)
+Completed 200 OK in 86ms (Views: 82.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 03:05:05 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:05 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:05 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:06 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:06 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:06 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:06 +0000
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 03:05:09 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 200.79.223.59 at 2013-11-26 03:05:09 +0000
+
+
+Started GET "/assets/application.css?body=1" for 200.79.223.59 at 2013-11-26 03:05:09 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 03:05:09 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 200.79.223.59 at 2013-11-26 03:05:09 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:09 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:09 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:09 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:09 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:09 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:09 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:09 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:09 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:10 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:10 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:10 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:10 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:10 +0000
+
+
+Started GET "/www.google.com.mx" for 200.79.223.59 at 2013-11-26 03:05:19 +0000
+
+ActionController::RoutingError (No route matches [GET] "/www.google.com.mx"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (21.8ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 03:05:26 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 200.79.223.59 at 2013-11-26 03:05:26 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 03:05:26 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:26 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:26 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:26 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:26 +0000
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 03:05:45 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 03:05:46 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 200.79.223.59 at 2013-11-26 03:05:46 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 03:05:46 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 03:05:46 +0000
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 03:06:23 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 58ms
+
+ActionView::Template::Error (Invalid CSS after "	color: ": expected expression (e.g. 1px, bold), was "#white;"
+  (in /home/action/Biblio/app/assets/stylesheets/books.css.scss:7)):
+    2: <html>
+    3: <head>
+    4:   <title>Biblio</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/books.css.scss:7
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2835237198255292420_14705600'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.4ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 03:06:30 +0000
+Processing by BooksController#book as HTML
+  Rendered books/book.html.erb within layouts/application (13.7ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Invalid CSS after "	color: ": expected expression (e.g. 1px, bold), was "#white;"
+  (in /home/action/Biblio/app/assets/stylesheets/books.css.scss:7)):
+    2: <html>
+    3: <head>
+    4:   <title>Libros</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/books.css.scss:7
+  app/views/books/book.html.erb:5:in `_app_views_books_book_html_erb___2712101726587996453_69985353251600'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.9ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 03:06:40 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 200.79.223.59 at 2013-11-26 03:06:40 +0000
+
+
+Started GET "/assets/application.css?body=1" for 200.79.223.59 at 2013-11-26 03:06:40 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 03:06:40 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 200.79.223.59 at 2013-11-26 03:06:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 03:06:40 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 200.79.223.59 at 2013-11-26 03:06:40 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 200.79.223.59 at 2013-11-26 03:06:40 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 03:06:40 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 03:06:40 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 03:06:40 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 03:06:40 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 03:06:40 +0000
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 03:06:43 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.4ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 03:06:44 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 200.79.223.59 at 2013-11-26 03:06:44 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 03:06:44 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 03:06:44 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 03:06:44 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 03:06:44 +0000
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 03:07:07 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (301.1ms)
+Completed 200 OK in 317ms (Views: 315.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 200.79.223.59 at 2013-11-26 03:07:08 +0000
+
+
+Started GET "/assets/application.css?body=1" for 200.79.223.59 at 2013-11-26 03:07:08 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 03:07:08 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:08 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:08 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 200.79.223.59 at 2013-11-26 03:07:08 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:08 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:08 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:08 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:08 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:08 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:08 +0000
+
+
+Started GET "/assets/images/templatemo_body.jpg" for 200.79.223.59 at 2013-11-26 03:07:08 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/templatemo_body.jpg"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (23.8ms)
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 03:07:12 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 03:07:12 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 200.79.223.59 at 2013-11-26 03:07:12 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 03:07:12 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:12 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:12 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:12 +0000
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 03:07:56 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 76ms (Views: 75.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 200.79.223.59 at 2013-11-26 03:07:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:56 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 03:07:56 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 200.79.223.59 at 2013-11-26 03:07:56 +0000
+
+
+Started GET "/assets/application.css?body=1" for 200.79.223.59 at 2013-11-26 03:07:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:56 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:57 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:57 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:57 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:57 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:57 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 03:07:57 +0000
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 03:08:00 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.4ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 03:08:00 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 200.79.223.59 at 2013-11-26 03:08:00 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 03:08:00 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 200.79.223.59 at 2013-11-26 03:08:00 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 03:08:00 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 03:08:00 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 03:08:00 +0000
+
+
+Started GET "/newbook" for 200.79.223.59 at 2013-11-26 03:16:19 +0000
+Processing by NewbooksController#newbook as HTML
+  Rendered newbooks/newbook.html.erb within layouts/application (23.8ms)
+Completed 200 OK in 37ms (Views: 33.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 200.79.223.59 at 2013-11-26 03:16:19 +0000
+
+
+Started GET "/assets/books.css?body=1" for 200.79.223.59 at 2013-11-26 03:16:19 +0000
+
+
+Started GET "/assets/angular.js?body=1" for 200.79.223.59 at 2013-11-26 03:16:19 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 200.79.223.59 at 2013-11-26 03:16:19 +0000
+
+
+Started GET "/assets/calando.css?body=1" for 200.79.223.59 at 2013-11-26 03:16:19 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 200.79.223.59 at 2013-11-26 03:16:19 +0000
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 03:16:19 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 03:16:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 03:16:19 +0000
+
+
+Started GET "/assets/images/templatemo_body.jpg" for 200.79.223.59 at 2013-11-26 03:16:19 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/templatemo_body.jpg"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (21.6ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 03:16:20 +0000
+Processing by BooksController#book as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/book.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/book" for 200.79.223.59 at 2013-11-26 03:16:20 +0000
+Processing by BooksController#book as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/book.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/books.js?body=1" for 200.79.223.59 at 2013-11-26 03:16:20 +0000
+
+
+Started GET "/assets/calando.js?body=1" for 200.79.223.59 at 2013-11-26 03:16:20 +0000
+
+
+Started GET "/assets/application.js?body=1" for 200.79.223.59 at 2013-11-26 03:16:20 +0000
+
+
+Started GET "/" for 200.79.223.59 at 2013-11-26 03:21:30 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (undefined local variable or method `book' for #<#<Class:0x000000038ab148>:0x000000038a94b0>):
+    16:   <p>Para Mejorar y Facilitar Tu Vida </p>
+    17:   
+    18:         <p><a class="btn btn-lg btn-success" href="book" role="button">Libros</a> 
+    19:            <a class="btn btn-lg btn-success" href="show" role="button"><%= link_to '', book %></a>
+    20:            <a class="btn btn-lg btn-success" href="newbook" role="button">Comparte un Libro</a></p>
+    21: 
+    22:       </div>
+  app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb__2835237198255292420_30627460'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.8ms)

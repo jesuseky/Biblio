@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Titulo:</b>
+  <%= @book.title %>
+</p>
+
+<p>
+  <b>Categoria:</b>
+  <%= @book.category %>
+</p>
+
+<p>
+  <b>Editorial:</b>
+  <%= @book.publishing %>
+</p>
+
+<p>
+  <b>Link:</b>
+  <%= @book.link %>
+</p>
+
+
+<%= link_to 'Editar', edit_car_path(@car) %> |
+<%= link_to 'Atras', cars_path %>

@@ -10,6 +10,7 @@ Biblio::Application.routes.draw do
   get 'author' => 'authors#autor'
   get 'book' => 'books#book'
   get 'newbook' => 'newbooks#newbook'
+  get 'show' => 'book#show'
   
   root 'welcome#index'
   
